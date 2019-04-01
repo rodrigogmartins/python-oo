@@ -15,7 +15,7 @@ class Teste:
         if(isinstance(nome, str)):
             self._nome = nome
         else:
-            raise TypeError('Parameter \'nome\' <type \'Str\'> is expected but found is: ' + str(type(obj)))
+            raise TypeError('Parameter \'nome\' <type \'Str\'> is expected but found is: ' + str(type(nome)))
 
 try:
     t = Teste('casa')
